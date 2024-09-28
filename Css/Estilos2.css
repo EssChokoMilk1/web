@@ -1,0 +1,92 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Selector body */
+body{
+  background-color: #2f26a7c8;
+  color:  rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;      
+  /* 1em = 12px */
+}
+#contenedor{
+    width: 90%;
+    margin: 1px auto;
+    border: 2px #fa03fa solid;
+    /* Grosor del contorno, color y estilo del contorno */
+    border-radius: 1px;
+
+}
+
+nav{
+background-color: #b750be;
+text-align:  center;
+position: fixed;
+width: 85%;
+margin-bottom: 15px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: rgba(128, 0, 128, 0.75);
+    text-decoration: underline;
+}
+
+header{
+    margin-top: 90px;
+    height: 100px;
+    background: rgba(178, 105, 23, 0.594) url("../Imagenes/eca7004f242107a632f031b3d2ba35e1.jpg");
+    /* background-size: cover; sirve para cubrir el ancho */
+    background-size: contain;
+    text-align: center;
+    line-height: 120px;
+}
+
+h2, h3, h4, h5{
+text-align: left;
+margin:10px;
+}
+p{
+    padding: 10 px;
+    text-align: justify;
+    border: 1px sienna;
+    border-radius: 10px;
+    margin: 0px 25px;
+}
+
+.impar{
+ color:  rgb(255, 255, 255);
+ padding: 0px 50px;
+ border-top-right-radius: 60px;
+}
+.par{
+    color:  rgb(255, 255, 255);
+    padding: 1px 50px;
+    border-top-right-radius: 60px;
+
+}
+
+.Texto{
+    color:  rgb(255, 255, 255);
+}
+
+.img{
+    height: 90%;
+    margin: 0px 25px;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(7, 7, 7, 0.56);
+}
+#contenedor{
+    width: 60%;
+    margin: 4px auto ;
+    text-align: center;
+}
+
+#tabla{
+    text-align: center;
+    border: 3px;
+}
