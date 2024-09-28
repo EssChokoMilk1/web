@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/form.css">
+</head>
+<body>
+    <div id="contenedor">
+        <form method="post" >
+            <p>
+            </p>
+            <label for="nombre">Nombre</label><br><br>
+            <input type="text" id="nombre" name="nombre" autofocus required placeholder="Proporcione su nombre">
+
+        </form>
+        <form action="">
+            <p>
+            </p> <br>
+            <label for="apellido">Apellido</label><br><br>
+            <input type="text" id="apellido" size="40" required placeholder="Proporcione su nombre" name="apellido" >
+            <p> <br>
+                <label for="estatus">Estatus</label><br> <br>
+              <input type="text" name="estatus" value="activo" readonly title="Solo de Lectura">
+            </p> <br>
+            
+            <p>
+            <label for="contraseña">Su contraseña</label><br><br>
+            <input type="password" id="contraseña" name="contraseña" required placeholder="Requerido">
+            </p> <br>
+            <input type="submit" name="Enviar" value="Enviar"> <br> <br>
+            <p> <br>
+                <input type="hidden" name="nip" value="666"><br>
+            </p>
+            <p>
+                <label for="navegador">Navegador Favorito</label>
+                <select id="navegador" name="navegador" required>
+                <option value="chrome">Google Chrome</option>
+                <option value="opera">Opera</option>
+                <option value="edge">Edge</option>
+                <option value="safari">Safari</option>
+                <option value="firefox">FireFox</option>
+            </select>
+            </p>
+            <p> <br>
+            <input type="submit" name="Enviar" value="Enviar"> <br> <br>
+             </p>
+        </form>
+    </div>
+</body>

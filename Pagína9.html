@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        #contenedor{
+
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <form method="set" >
+            <p>
+                <label for="comentarios">Comentarios</label><br>
+                <textarea cols="60" rows="10" required id="msg" name="msg">Terminos y condiciones</textarea>
+            </p>
+
+            <p>
+                <label for="lenguaje">Lenguaje(s) Favorito</label><br>
+                <select name="lenguaje" id="lenguaje" required multiple="true">
+                    <option value="">Selecione...</option> 
+                    <option value="php">PHP</option>
+                    <option value="python">Python</option>
+                    <option value="java">JAVA</option>
+                    <option value="kotlin">Kotlin</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="c++">C++</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" id="remitir" value="Remitir información">
+            </p>
+            <p>
+                <label for="imagen">Seleccione una Imagen</label><br>
+                <input type="file" id="imagen" name="imagen" required>
+            </p>
+            <p>
+                <label for="imagenes">Seleccione una Imagen</label><br>
+                <input type="file" id="imagenes" name="imagenes" required multiple="true">
+            </p>
+            <p>
+                <label for="so">Sistema Operativo</label> <br>
+                <input type="checkbox" id="so1" name="so1" value="Windows">Windows <br>
+                <input type="checkbox" id="so2" name="so2" value="MacOS">MacOS <br>
+                <input type="checkbox" id="so3" name="so3" value="Linux">Linux <br>
+            </p>
+            <p>
+                <label for="so">Sistema Operativo</label> <br>
+                <input type="radio" id="so" name="so" value="Windows">Windows <br>
+                <input type="radio" id="so" name="so" value="MacOS">MacOS <br>
+                <input type="radio" id="so" name="so" value="Linux">Linux <br>
+            </p>
+
+            <p>
+                <button id="listar">Listar Datos</button>&nbsp;&nbsp;
+                <button id="guardar">Guardar Datos</button>&nbsp;&nbsp;
+                <button id="eliminar">Eliminar Datos</button>&nbsp;&nbsp;
+                <button id="editar">Editar Datos</button>&nbsp;&nbsp;
+                <!-- <button type="submit" id="remitir">Remitir Datos><\button> -->
+
+            </p>
+            <p>
+                <!-- Nuevos Formularios -->
+                 <label for="date">Fecha</label><br>
+                <input type="date" id="fecha" name="fecha" required>
+                
+                 </p>
+
+                 <p>
+                     <label for="hora">Hora de Registro</label>
+                     <input type="time" id="hora" name="hora" required>
+                 </p>
+
+                 <p>
+                    <label for="edad">Seleccione su edad</label>
+                    <input type="number" name="edad" id="edad" required min="0" max="100" step="2">
+                 </p>
+
+                 <p>
+                    <label for="email">Correo</label>
+                    <input type="email" id="correo" name="correo" requiredS>
+
+                 </p>
+
+                 <p>
+                    <input type="submit" id="remitir" value="Remitir Informacion">
+                 </p>
+        </form>
+
+    </div>
+</body>
